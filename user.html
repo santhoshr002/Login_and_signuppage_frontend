@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div class="container">
+            <div class="center">
+                <form id="userform" method="post" class="form">
+                    <div class="row">
+                        <div class="side">
+                            <label for="fname">First name</label>
+                            <input type="text" name="fname" id="fname" placeholder="first name" required>
+                        </div>
+                        <div class="side">
+                            <label for="lname">Last name</label>
+                            <input type="text" name="lname" id="lname" placeholder="last name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="side">
+                            <label for="dob">DOB</label>
+                            <input type="date" name="dob" id="dob" placeholder="date of birth" required>
+                        </div>
+                        <div class="side">
+                            <label for="age">Age</label>
+                            <input type="number" name="age" id="age" placeholder="age" required>
+                        </div>
+                        <div class="side">
+                            <label for="bgroup">Blood group</label>
+                            <!--input type="text" name="bgroup" id="bgroup" placeholder="blood group" required-->
+                            <select id="bgroup" name="bgroup" placeholder="blood" required>
+                              <option value="" disabled selected hidden>select</option>
+                              <option value="O+ve" >O+ve</option>
+                              <option value="O-ve">O-ve</option>
+                              <option value="A+ve">A+ve</option>
+                              <option value="A-ve">A-ve</option>
+                              <option value="B+ve">B+ve</option>
+                              <option value="B-ve">B-ve</option>
+                              <option value="AB+ve">AB+ve</option>
+                              <option value="AB-ve">AB-ve</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="side">
+                            <label for="phone">Phone number</label>
+                            <input type="number" name="phone" id="phone" placeholder="Phone number" required>
+                        </div>
+                        <div class="side">
+                            <label for="city">city</label>
+                            <!--input type="text" name="city" id="city" placeholder="city" required-->
+                            <select id="city" name="city" placeholder="city"  required>
+                                <option value="" disabled selected hidden>select</option>
+                                <option value="Ariyalur" >Ariyalur</option>
+                                <option value="Chengalpattu" >Chengalpattu</option>
+                                <option value="Chennai" >Chennai</option>
+                                <option value="Coimbatore" >Coimbatore</option>
+                                <option value="Cuddaore" >Cuddaore</option>
+                                <option value="Dharmapuri" >Dharmapuri</option>
+                                <option value="Dindugal" >Dindugal</option>
+                                <option value="Erode" >Erode</option>
+                                <option value="Kallakurichi" >Kallakurichi</option>
+                                <option value="Kanchipuram" >Kanchipuram</option>
+                                <option value="Karur" >Karur</option>
+                                <option value="Krishanagiri" >Krishanagiri</option>
+                                <option value="Madurai" >Madurai</option>
+                                <option value="Mayiladuthurai" >Mayiladuthurai</option>
+                                <option value="Nagapattinam" >Nagapattinam</option>
+                                <option value="Nagercoil" >Nagercoil</option>
+                                <option value="Namakkal" >Namakkal</option>
+                                <option value="Perambalur" >Perambalur</option>
+                                <option value="Pudukottai" >Pudukottai</option>
+                                <option value="Ramanathapuram" >Ramanathapuram</option>
+                                <option value="Ranipet" >Ranipet</option>
+                                <option value="Salem" >Salem</option>
+                                <option value="Sivagangai" >Sivagangai</option>
+                                <option value="Tenkasi" >Tenkasi</option>
+                                <option value="Thanjavur" >Thanjavur</option>
+                                <option value="Theni" >Theni</option>
+                                <option value="Thiruvallur" >Thiruvallur</option>
+                                <option value="Thiruvarur" >Thiruvarur</option>
+                                <option value="Thoothukudi" >Thoothukudi</option>
+                                <option value="Tiruchirappalli" >Tiruchirappalli</option>
+                                <option value="Tirunelveli" >Tirunelveli</option>
+                                <option value="Tirupathur" >Tirupathur</option>
+                                <option value="Tiruppur" >Tiruppur</option>
+                                <option value="Tiruvannamalai" >Tiruvannamalai</option>
+                                <option value="Udagamandalam" >Udagamandalam</option>
+                                <option value="Vellore" >Vellore</option>
+                                <option value="Vilupuram" >Vilupuram</option>
+                                <option value="virudhunagar" >virudhunagar</option>
+                              </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="side">
+                            <label for="state">State</label>
+                            <input type="text" name="state" id="state" placeholder="state" required>
+                        </div>
+                        <div class="side">
+                            <label for="pin">Pincode</label>
+                            <input type="number" name="pin" id="pin" placeholder="pincode" required>
+                        </div>
+                    </div>
+                    <button >submit</button>
+                </form>
+            </div>
+        </div> 
+       
+    </body>
+</html>
+
+
